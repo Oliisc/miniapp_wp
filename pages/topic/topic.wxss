@@ -1,0 +1,71 @@
+.ui-grid {
+  display: block !important;
+  margin: 12rpx;
+}
+
+.ui-BG-card {
+  margin: 20rpx;
+  padding: 0;
+overflow: hidden;
+}
+
+.ui-item {
+  width: 100% !important;
+  text-align: center;
+  position: relative;
+}
+
+
+.ui-card {
+  margin: 12rpx !important;
+}
+
+.ui-card-bg {
+  height: 160rpx;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+ overflow: hidden;
+ filter: saturate(160%) blur(22px) ;
+
+}
+
+.ui-card-image {
+  position: absolute;
+  width: 120rpx;
+  height: 120rpx;
+  display: inline-block;
+  top: 80rpx;
+  left: 304rpx;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 1px solid rgba(226, 226, 226, 0.4);
+}
+
+.ui-card-sub {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  border: solid 1px rgba(255, 255, 255, .1);
+  z-index: 1;
+  color: #fff;
+  padding: 2px 6px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx !important;
+
+}
+
+.ui-card-sub:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ui-card-content {
+  padding: 60rpx 12rpx 24rpx;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 9;
+  height: 236rpx;
+}.ui-card-content .dec{
+  margin-top: 10rpx;
+  
+}
